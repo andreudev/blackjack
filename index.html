@@ -14,15 +14,38 @@
   </head>
   <body>
     <header class="title">Blackjack</header>
-    <div class="button-container">
-      <div class="row">
-        <div class="col text-center">
-          <button class="btn btn-primary">Nuevo juego</button>
-          <button class="btn btn-success">Pedir carta</button>
-          <button class="btn btn-secondary">Detener</button>
+
+    <div class="row">
+      <div class="col text-center mt-2">
+        <button class="btn btn-danger">Nuevo juego</button>
+        <button class="btn btn-primary">Pedir carta</button>
+        <button class="btn btn-primary">Detener</button>
+      </div>
+    </div>
+
+    <div class="row container-fluid">
+      <div class="col">
+        <h1>Jugador 1 - <small>0</small></h1>
+        <div id="jugador-cartas">
+          <img src="assets/cartas/10C.png" alt="" class="carta" />
+          <img src="assets/cartas/10C.png" alt="" class="carta" />
+          <img src="assets/cartas/10C.png" alt="" class="carta" />
         </div>
       </div>
     </div>
+
+    <div class="row container-fluid">
+      <div class="col">
+        <h1>Computadora - <small>0</small></h1>
+        <div id="computadora-cartas">
+          <img src="assets/cartas/10C.png" alt="" class="carta" />
+          <img src="assets/cartas/10C.png" alt="" class="carta" />
+          <img src="assets/cartas/10C.png" alt="" class="carta" />
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/underscore.js"></script>
     <script src="assets/js/app.js"></script>
   </body>
 </html>

@@ -1,17 +1,19 @@
-html,
-body {
+* {
+  color: white;
+}
+
+body,
+html {
+  background-color: #2f4f30;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #2f4f30;
-  color: white;
-  font-family: Arial, sans-serif;
 }
 
 .title {
   text-align: center;
   background-color: black;
   color: white;
-  padding: 20px;
   font-size: 1.5em;
 }
 
@@ -19,7 +21,14 @@ body {
   background-color: #2f4f30;
 }
 
-.button-container {
-  padding-top: 0.5rem;
-  /* Equivalente a mt-2 de Bootstrap */
+.carta {
+  position: relative;
+  width: 150px;
+  left: 150px;
+  margin-left: -75px;
+}
+
+#computadora-cartas,
+#jugador-cartas {
+  height: 250px;
 }
